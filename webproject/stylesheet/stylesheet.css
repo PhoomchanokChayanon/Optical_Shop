@@ -1,0 +1,85 @@
+.container-welcome {
+	position: relative;
+  text-align: center;
+}
+
+.welcome-img{
+  position: absolute;
+  background-image: url("	https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eb0f2c114445403.603bc566bd64d.gif");
+  height: 500px;
+  filter: blur(2px);
+  width: 600px;
+  height: 400px;
+}
+
+.Best-seller{
+  font-family: 'Playfair Display', serif;
+  font-size: 75px;
+}
+
+.item-Best-seller{
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+.new{
+  font-size: 85px;
+  font-family: 'Playfair Display', serif;
+}
+.lastest-1{
+  height: 100px;
+  width: 100px;
+}
+.total_quantity{
+  color: red;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.table{
+  border:'5';
+  text-align: center;
+}
+
+
+tr + tr :hover{
+  text-decoration: underline;
+}
+
+h1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Playfair Display', serif;
+}
+
+tr > th{
+  font-size: 20px;
+}
+
+tr + tr{
+  border-bottom: 1px solid ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#pointer {cursor: pointer;}
+
+tr > td {
+  font-size: 22px;
+}
+
+
+.form-control{
+  width: 20%;
+  display: block;
+}
+
+.col-md-3{
+  padding-right:30px;
+}
+
+.text-info{
+  padding-top:30px;
+  text-align: center;
+}
